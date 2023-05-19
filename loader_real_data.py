@@ -82,4 +82,4 @@ od.product_id;
 """
 
 db  = pymysql.connect(**connection_params)
-pd.read_sql_query(request,db).to_csv('df_real_prices.csv')
+pd.read_sql_query(request,db).to_csv('Data_brute.csv')
